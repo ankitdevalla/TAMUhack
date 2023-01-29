@@ -1,3 +1,600 @@
-Plano, TX, USA, 2
-Allen, TX, USA, 4
-Frisco, TX, USA, 6
+Abilene, TX, USA, 50
+Abilene, TX, USA, 41
+Abilene, TX, USA, 5
+Addison, TX, USA, 22
+Addison, TX, USA, 4
+Addison, TX, USA, 5
+Alamo, TX, USA,	11
+Alamo, TX, USA,	8
+Alamo, TX, USA,	29
+Alice, TX, USA,	15
+Alice, TX, USA,	6
+Alice, TX, USA,	38
+Allen, TX, USA,	81
+Allen, TX, USA,	78
+Allen, TX, USA,	34
+Alvin, TX, USA,	55
+Alvin, TX, USA,	72
+Alvin, TX, USA,	61
+Amarillo, TX, USA, 20
+Amarillo, TX, USA, 67
+Amarillo, TX, USA, 36
+Andrews, TX, USA, 64
+Andrews, TX, USA, 12
+Andrews, TX, USA, 24
+Angleton, TX, USA, 71
+Angleton, TX, USA, 67
+Angleton, TX, USA, 69
+Anna, TX, USA, 83
+Anna, TX, USA, 76
+Anna, TX, USA, 52
+Arlington, TX, USA,	43
+Arlington, TX, USA,	77
+Arlington, TX, USA,	54
+Athens, TX, USA, 55
+Athens, TX, USA, 43
+Athens, TX, USA, 44
+Austin, TX, USA, 32
+Austin, TX, USA, 51
+Austin, TX, USA, 11
+Azle, TX, USA, 70
+Azle, TX, USA, 35
+Azle, TX, USA, 54
+Balch Springs, TX, USA,	31
+Balch Springs, TX, USA,	64
+Balch Springs, TX, USA,	49
+Baytown, TX, USA, 32
+Baytown, TX, USA, 30
+Baytown, TX, USA, 75
+Beaumont, TX, USA, 13
+Beaumont, TX, USA, 25
+Beaumont, TX, USA, 74
+Bedford, TX, USA, 61
+Bedford, TX, USA, 33
+Bedford, TX, USA, 49
+Beeville, TX, USA, 49
+Beeville, TX, USA, 11
+Beeville, TX, USA, 33
+Bellaire, TX, USA, 69
+Bellaire, TX, USA, 62
+Bellaire, TX, USA, 33
+Belton, TX, USA, 64
+Belton, TX, USA, 43
+Belton, TX, USA, 53
+Benbrook, TX, USA, 72
+Benbrook, TX, USA, 74
+Benbrook, TX, USA, 63
+Big Spring, TX, USA, 28
+Big Spring, TX, USA, 57
+Big Spring, TX, USA, 56
+Boerne, TX, USA, 68
+Boerne, TX, USA, 69
+Boerne, TX, USA, 28
+Brenham, TX, USA, 53
+Brenham, TX, USA, 41
+Brenham, TX, USA, 69
+Brownsville, TX, USA, 50
+Brownsville, TX, USA, 65
+Brownsville, TX, USA, 62
+Brownwood, TX, USA,	35
+Brownwood, TX, USA,	29
+Brownwood, TX, USA,	51
+Bryan, TX, USA,	53
+Bryan, TX, USA,	56
+Bryan, TX, USA,	38
+Buda, TX, USA, 74
+Buda, TX, USA, 49
+Buda, TX, USA, 1
+Burleson, TX, USA, 71
+Burleson, TX, USA, 42
+Burleson, TX, USA, 64
+Canyon, TX, USA, 82
+Canyon, TX, USA, 51
+Canyon, TX, USA, 63
+Cedar Hill, TX, USA, 55
+Cedar Hill, TX, USA, 73
+Cedar Hill, TX, USA, 61
+Cedar Park, TX, USA, 85
+Cedar Park, TX, USA, 67
+Cedar Park, TX, USA, 39
+Celina, TX, USA, 87
+Celina, TX, USA, 86
+Celina, TX, USA, 72
+Cibolo, TX, USA, 83
+Cibolo, TX, USA, 70
+Cibolo, TX, USA, 40
+Cleburne, TX, USA, 60
+Cleburne, TX, USA, 52
+Cleburne, TX, USA, 22
+Clute, TX, USA,	53
+Clute, TX, USA,	77
+Clute, TX, USA,	78
+College Station, TX, USA, 67
+College Station, TX, USA, 83
+College Station, TX, USA, 75
+Colleyville, TX, USA, 90
+Colleyville, TX, USA, 65
+Colleyville, TX, USA, 31
+Converse, TX, USA, 62
+Converse, TX, USA, 62
+Converse, TX, USA, 57
+Coppell, TX, USA, 79
+Coppell, TX, USA, 91
+Coppell, TX, USA, 59
+Copperas Cove, TX, USA,	56
+Copperas Cove, TX, USA,	54
+Copperas Cove, TX, USA,	50
+Corinth, TX, USA, 86
+Corinth, TX, USA, 50
+Corinth, TX, USA, 32
+Corpus Christi, TX, USA, 24
+Corpus Christi, TX, USA, 79
+Corpus Christi, TX, USA, 59
+Corsicana, TX, USA,	30
+Corsicana, TX, USA,	58
+Corsicana, TX, USA,	66
+Crowley, TX, USA, 53
+Crowley, TX, USA, 84
+Crowley, TX, USA, 35
+Dallas, TX, USA, 26
+Dallas, TX, USA, 22
+Dallas, TX, USA, 75
+Deer Park, TX, USA,	71
+Deer Park, TX, USA,	32
+Deer Park, TX, USA,	84
+Del Rio, TX, USA, 70
+Del Rio, TX, USA, 60
+Del Rio, TX, USA, 46
+Denison, TX, USA, 60
+Denison, TX, USA, 29
+Denison, TX, USA, 73
+Denton, TX, USA, 64
+Denton, TX, USA, 75
+Denton, TX, USA, 81
+DeSoto, TX, USA, 57
+DeSoto, TX, USA, 65
+DeSoto, TX, USA, 64
+Dickinson, TX, USA,	63
+Dickinson, TX, USA,	60
+Dickinson, TX, USA,	33
+Donna, TX, USA,	4
+Donna, TX, USA,	55
+Donna, TX, USA,	77
+Dumas, TX, USA,	68
+Dumas, TX, USA,	55
+Dumas, TX, USA,	25
+Duncanville, TX, USA, 46
+Duncanville, TX, USA, 62
+Duncanville, TX, USA, 54
+Eagle Pass, TX, USA, 60
+Eagle Pass, TX, USA, 70
+Eagle Pass, TX, USA, 67
+Edinburg, TX, USA, 46
+Edinburg, TX, USA, 36
+Edinburg, TX, USA, 70
+El Campo, TX, USA, 43
+El Campo, TX, USA, 62
+El Campo, TX, USA, 20
+El Paso, TX, USA, 67
+El Paso, TX, USA, 35
+El Paso, TX, USA, 60
+Ennis, TX, USA,	72
+Ennis, TX, USA,	67
+Ennis, TX, USA,	47
+Euless, TX, USA, 64
+Euless, TX, USA, 66
+Euless, TX, USA, 58
+Farmers Branch, TX, USA, 62
+Farmers Branch, TX, USA, 63
+Farmers Branch, TX, USA, 32
+Fate, TX, USA, 91
+Fate, TX, USA, 59
+Fate, TX, USA, 62
+Flower Mound, TX, USA, 84
+Flower Mound, TX, USA, 91
+Flower Mound, TX, USA, 46
+Forest Hill, TX, USA, 43
+Forest Hill, TX, USA, 85
+Forest Hill, TX, USA, 31
+Forney, TX, USA, 78
+Forney, TX, USA, 41
+Forney, TX, USA, 84
+Fort Worth, TX, USA, 46
+Fort Worth, TX, USA, 79
+Fort Worth, TX, USA, 88
+Fredericksburg, TX, USA, 80
+Fredericksburg, TX, USA, 42
+Fredericksburg, TX, USA, 64
+Freeport, TX, USA, 56
+Freeport, TX, USA, 68
+Freeport, TX, USA, 79
+Friendswood, TX, USA, 88
+Friendswood, TX, USA, 84
+Friendswood, TX, USA, 89
+Frisco, TX, USA, 79
+Frisco, TX, USA, 76
+Frisco, TX, USA, 49
+Fulshear, TX, USA, 91
+Fulshear, TX, USA, 93
+Fulshear, TX, USA, 70
+Gainesville, TX, USA, 50
+Gainesville, TX, USA, 48
+Gainesville, TX, USA, 74
+Galveston, TX, USA,	37
+Galveston, TX, USA,	39
+Galveston, TX, USA,	40
+Garland, TX, USA, 52
+Garland, TX, USA, 50
+Garland, TX, USA, 78
+Gatesville, TX, USA, 67
+Gatesville, TX, USA, 67
+Gatesville, TX, USA, 65
+Georgetown, TX, USA, 82
+Georgetown, TX, USA, 82
+Georgetown, TX, USA, 70
+Glenn Heights, TX, USA,	62
+Glenn Heights, TX, USA,	67
+Glenn Heights, TX, USA,	67
+Grand Prairie, TX, USA,	62
+Grand Prairie, TX, USA,	63
+Grand Prairie, TX, USA,	28
+Greenville, TX, USA, 58
+Greenville, TX, USA, 61
+Greenville, TX, USA, 84
+Groves, TX, USA, 55
+Groves, TX, USA, 59
+Groves, TX, USA, 44
+Haltom City, TX, USA, 51
+Haltom City, TX, USA, 57
+Haltom City, TX, USA, 33
+Harker Heights, TX, USA, 69
+Harker Heights, TX, USA, 51
+Harker Heights, TX, USA, 36
+Harlingen, TX, USA,	12
+Harlingen, TX, USA,	58
+Harlingen, TX, USA,	13
+Henderson, TX, USA,	24
+Henderson, TX, USA,	21
+Henderson, TX, USA, 67
+Hereford, TX, USA, 52
+Hereford, TX, USA, 22
+Hereford, TX, USA, 52
+Hewitt, TX, USA, 83
+Hewitt, TX, USA, 45
+Hewitt, TX, USA, 22
+Hidalgo, TX, USA, 77
+Hidalgo, TX, USA, 74
+Hidalgo, TX, USA, 61
+Highland Village, TX, USA, 88
+Highland Village, TX, USA, 75
+Highland Village, TX, USA, 67
+Horizon City, TX, USA, 91
+Horizon City, TX, USA, 87
+Horizon City, TX, USA, 69
+Houston, TX, USA, 4
+Houston, TX, USA, 89
+Houston, TX, USA, 63
+Humble, TX, USA, 90
+Humble, TX, USA, 10
+Humble, TX, USA, 48
+Hurst, TX, USA, 39
+Hurst, TX, USA, 73
+Hurst, TX, USA, 74
+Irving, TX, USA, 56
+Irving, TX, USA, 66
+Irving, TX, USA, 83
+Katy, TX, USA, 30
+Katy, TX, USA, 37
+Katy, TX, USA, 40
+Keller, TX, USA, 87
+Keller, TX, USA, 94
+Keller, TX, USA, 80
+Kerrville, TX, USA, 75
+Kerrville, TX, USA, 58
+Kerrville, TX, USA, 61
+Kilgore, TX, USA, 58
+Kilgore, TX, USA, 45
+Kilgore, TX, USA, 57
+Killeen, TX, USA, 53
+Killeen, TX, USA, 47
+Killeen, TX, USA, 39
+Kingsville, TX, USA, 37
+Kingsville, TX, USA, 88
+Kingsville, TX, USA, 82
+Kyle, TX, USA, 76
+Kyle, TX, USA, 66
+Kyle, TX, USA, 67
+La Marque, TX, USA,	18
+La Marque, TX, USA,	49
+La Marque, TX, USA,	35
+La Porte, TX, USA, 71
+La Porte, TX, USA, 52
+La Porte, TX, USA, 28
+Lake Jackson, TX, USA, 54
+Lake Jackson, TX, USA, 44
+Lake Jackson, TX, USA, 63
+Lakeway, TX, USA, 84
+Lakeway, TX, USA, 77
+Lakeway, TX, USA, 49
+Lancaster, TX, USA,	51
+Lancaster, TX, USA,	5
+Lancaster, TX, USA,	90
+Laredo, TX, USA, 63
+Laredo, TX, USA, 75
+Laredo, TX, USA, 66
+League City, TX, USA, 75
+League City, TX, USA, 63
+League City, TX, USA, 31
+Leander, TX, USA, 84
+Leander, TX, USA, 81
+Leander, TX, USA, 81
+Leon Valley, TX, USA, 26
+Leon Valley, TX, USA, 51
+Leon Valley, TX, USA, 89
+Levelland, TX, USA,	23
+Levelland, TX, USA,	53
+Levelland, TX, USA,	79
+Lewisville, TX, USA, 63
+Lewisville, TX, USA, 71
+Lewisville, TX, USA, 27
+Live Oak, TX, USA, 34
+Live Oak, TX, USA, 83
+Live Oak, TX, USA, 22
+Lockhart, TX, USA, 82
+Lockhart, TX, USA, 24
+Lockhart, TX, USA, 69
+Longview, TX, USA, 41
+Longview, TX, USA, 58
+Longview, TX, USA, 72
+Lubbock, TX, USA, 0
+Lubbock, TX, USA, 86
+Lubbock, TX, USA, 31
+Lufkin, TX, USA, 17
+Lufkin, TX, USA, 45
+Lufkin, TX, USA, 32
+Lumberton, TX, USA,	78
+Lumberton, TX, USA,	78
+Lumberton, TX, USA,	53
+Manor, TX, USA,	58
+Manor, TX, USA,	40
+Manor, TX, USA,	57
+Mansfield, TX, USA,	81
+Mansfield, TX, USA,	1
+Mansfield, TX, USA,	19
+Manvel, TX, USA, 84
+Manvel, TX, USA, 28
+Manvel, TX, USA, 0
+Marshall, TX, USA, 66
+Marshall, TX, USA, 78
+Marshall, TX, USA, 66
+McAllen, TX, USA, 59
+McAllen, TX, USA, 80
+McAllen, TX, USA, 2
+McKinney, TX, USA, 81
+McKinney, TX, USA, 37
+McKinney, TX, USA, 53
+Memorial Villages, TX, USA, 89
+Memorial Villages, TX, USA,	56
+Memorial Villages, TX, USA,	78
+Mercedes, TX, USA, 28
+Mercedes, TX, USA, 79
+Mercedes, TX, USA, 67
+Mesquite, TX, USA, 32
+Mesquite, TX, USA, 90
+Mesquite, TX, USA, 90
+Mineral Wells, TX, USA,	45
+Mineral Wells, TX, USA,	27
+Mineral Wells, TX, USA,	44
+Mission, TX, USA, 67
+Mission, TX, USA, 34
+Mission, TX, USA, 45
+Missouri City, TX, USA,	79
+Missouri City, TX, USA,	62
+Missouri City, TX, USA,	79
+Mount Pleasant, TX, USA, 39
+Mount Pleasant, TX, USA, 78
+Mount Pleasant, TX, USA, 55
+Murphy, TX, USA, 91
+Murphy, TX, USA, 46
+Murphy, TX, USA, 73
+Nacogdoches, TX, USA, 50
+Nacogdoches, TX, USA, 68
+Nacogdoches, TX, USA, 88
+Nederland, TX, USA,	61
+Nederland, TX, USA,	79
+Nederland, TX, USA,	46
+New Braunfels, TX, USA,	74
+New Braunfels, TX, USA,	36
+New Braunfels, TX, USA,	1
+North Richland Hills, TX, USA, 67
+North Richland Hills, TX, USA, 91
+North Richland Hills, TX, USA, 55
+Odessa, TX, USA, 27
+Odessa, TX, USA, 45
+Odessa, TX, USA, 1
+Orange, TX, USA, 58
+Orange, TX, USA, 65
+Orange, TX, USA, 33
+Palestine, TX, USA,	45
+Palestine, TX, USA,	69
+Palestine, TX, USA,	71
+Pampa, TX, USA,	19
+Pampa, TX, USA,	66
+Pampa, TX, USA,	12
+Paris, TX, USA,	26
+Paris, TX, USA,	38
+Paris, TX, USA,	49
+Pasadena, TX, USA, 47
+Pasadena, TX, USA, 24
+Pasadena, TX, USA, 32
+Pearland, TX, USA, 72
+Pearland, TX, USA, 30
+Pearland, TX, USA, 33
+Pflugerville, TX, USA, 79
+Pflugerville, TX, USA, 53
+Pflugerville, TX, USA, 10
+Pharr, TX, USA,	64
+Pharr, TX, USA,	74
+Pharr, TX, USA,	52
+Plano, TX, USA,	70
+Plano, TX, USA,	61
+Plano, TX, USA,	72
+Port Arthur, TX, USA, 47
+Port Arthur, TX, USA, 53
+Port Arthur, TX, USA, 55
+Port Neches, TX, USA, 68
+Port Neches, TX, USA, 69
+Port Neches, TX, USA, 49
+Portland, TX, USA, 69
+Portland, TX, USA, 38
+Portland, TX, USA, 46
+Prosper, TX, USA, 85
+Prosper, TX, USA, 66
+Prosper, TX, USA, 83
+Red Oak, TX, USA, 60
+Red Oak, TX, USA, 63
+Red Oak, TX, USA, 76
+Richardson, TX, USA, 68
+Richardson, TX, USA, 79
+Richardson, TX, USA, 57
+Richmond, TX, USA, 60
+Richmond, TX, USA, 55
+Richmond, TX, USA, 15
+Rio Grande City, TX, USA, 68
+Rio Grande City, TX, USA, 64
+Rio Grande City, TX, USA, 16
+Rockwall, TX, USA, 72
+Rockwall, TX, USA, 55
+Rockwall, TX, USA, 35
+Roma, TX, USA, 80
+Roma, TX, USA, 69
+Roma, TX, USA, 27
+Rosenberg, TX, USA,	62
+Rosenberg, TX, USA,	72
+Rosenberg, TX, USA,	33
+Round Rock, TX, USA, 70
+Round Rock, TX, USA, 64
+Round Rock, TX, USA, 31
+Royse City, TX, USA, 76
+Royse City, TX, USA, 66
+Royse City, TX, USA, 60
+Sachse, TX, USA, 88
+Sachse, TX, USA, 73
+Sachse, TX, USA, 79
+Saginaw, TX, USA, 68
+Saginaw, TX, USA, 81
+Saginaw, TX, USA, 35
+San Angelo, TX, USA, 41
+San Angelo, TX, USA, 86
+San Angelo, TX, USA, 8
+San Antonio, TX, USA, 14
+San Antonio, TX, USA, 37
+San Antonio, TX, USA, 48
+San Benito, TX, USA, 20
+San Benito, TX, USA, 21
+San Benito, TX, USA, 84
+San Juan, TX, USA, 52
+San Juan, TX, USA, 25
+San Juan, TX, USA, 75
+San Marcos, TX, USA, 53
+San Marcos, TX, USA, 53
+San Marcos, TX, USA, 61
+Santa Fe, TX, USA, 82
+Santa Fe, TX, USA, 54
+Santa Fe, TX, USA, 87
+Schertz, TX, USA, 74
+Schertz, TX, USA, 76
+Schertz, TX, USA, 64
+Seabrook, TX, USA, 75
+Seabrook, TX, USA, 68
+Seabrook, TX, USA, 79
+Seagoville, TX, USA, 67
+Seagoville, TX, USA, 78
+Seagoville, TX, USA, 46
+Seguin, TX, USA, 55
+Seguin, TX, USA, 65
+Seguin, TX, USA, 39
+Selma, TX, USA,	63
+Selma, TX, USA,	53
+Selma, TX, USA,	62
+Sherman, TX, USA, 47
+Sherman, TX, USA, 50
+Sherman, TX, USA, 52
+Socorro, TX, USA, 83
+Socorro, TX, USA, 85
+Socorro, TX, USA, 76
+South Houston, TX, USA,	48
+South Houston, TX, USA,	53
+South Houston, TX, USA,	77
+Southlake, TX, USA,	81
+Southlake, TX, USA,	78
+Southlake, TX, USA,	69
+Stafford, TX, USA, 33
+Stafford, TX, USA, 66
+Stafford, TX, USA, 71
+Stephenville, TX, USA, 66
+Stephenville, TX, USA, 71
+Stephenville, TX, USA, 79
+Sulphur Springs, TX, USA, 79
+Sulphur Springs, TX, USA, 78
+Sulphur Springs, TX, USA, 17
+Taylor, TX, USA, 54
+Taylor, TX, USA, 55
+Taylor, TX, USA, 62
+Temple, TX, USA, 58
+Temple, TX, USA, 51
+Temple, TX, USA, 87
+Terrell, TX, USA, 40
+Terrell, TX, USA, 39
+Terrell, TX, USA, 76
+Texarkana, TX, USA,	15
+Texarkana, TX, USA,	6
+Texarkana, TX, USA,	56
+Texas City, TX, USA, 45
+Texas City, TX, USA, 38
+Texas City, TX, USA, 43
+The Colony, TX, USA, 69
+The Colony, TX, USA, 76
+The Colony, TX, USA, 89
+Trophy Club, TX, USA, 92
+Trophy Club, TX, USA, 91
+Trophy Club, TX, USA, 51
+Tyler, TX, USA,	43
+Tyler, TX, USA,	43
+Tyler, TX, USA,	49
+Universal City, TX, USA, 47
+Universal City, TX, USA, 49
+Universal City, TX, USA, 21
+University Park, TX, USA, 88
+University Park, TX, USA, 81
+University Park, TX, USA, 64
+Uvalde, TX, USA, 32
+Uvalde, TX, USA, 33
+Uvalde, TX, USA, 81
+Victoria, TX, USA, 39
+Victoria, TX, USA, 44
+Victoria, TX, USA, 22
+Waco, TX, USA, 33
+Waco, TX, USA, 26
+Waco, TX, USA, 81
+Watauga, TX, USA, 72
+Watauga, TX, USA, 75
+Watauga, TX, USA, 56
+Weatherford, TX, USA, 73
+Weatherford, TX, USA, 72
+Weatherford, TX, USA, 70
+Weslaco, TX, USA, 32
+Weslaco, TX, USA, 70
+Weslaco, TX, USA, 50
+West University Place, TX, USA,	86
+West University Place, TX, USA,	28
+West University Place, TX, USA,	89
+White Settlement, TX, USA, 66
+White Settlement, TX, USA, 88
+White Settlement, TX, USA, 57
+Wichita Falls, TX, USA,	42
+Wichita Falls, TX, USA,	66
+Wichita Falls, TX, USA,	62
+Wylie, TX, USA,	87
+Wylie, TX, USA,	41
+Wylie, TX, USA,	60
