@@ -20,7 +20,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQMHkBsnobysQDtn5PuEhmDKwgq404few&libraries=places"></script>
     </style>
     <script>
-      var map, marker;
+       var map, marker;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
 	  center: {lat: 31.9686, lng: -99.9018},
@@ -63,7 +63,8 @@ zoom: 5
     <script>
 
         
-const searchBar = document.getElementById("search-bar");
+const searchBar = document.getElementById("search");
+const searchBtn = document.getElementById("search-btn");
 const scoreBox = document.getElementById("score-box");
 
 fetch("cities.txt")
@@ -76,22 +77,25 @@ fetch("cities.txt")
     // Loop through each line and add the city-number pairs to the object
     lines.forEach(line => {
       const [city, state, country, score] = line.split(",");
-      cityScores[city + "," + state + "," + country+ ": "] = score;
+      cityScores[city + ", " + state + ", " + country + ","] = score;
     });
-    // Listen for the user input in the search bar
-    searchBar.addEventListener("input", e => {
-      const city = e.target.value;
+    // Listen for the click event on the search button
+    searchBtn.addEventListener("click", e => {
+      const city = searchBar.value;
+      scoreBox.value = city;
+      scoreBox.value += " " + cityScores[city];
+
       // Check if the city exists in the cityScores object
       if (cityScores[city]) {
         // If it does, update the score text box with the corresponding number
         scoreBox.value = cityScores[city];
       } else {
         // If it doesn't, clear the score text box
-        scoreBox.value = "";
+        scoreBox.value += "hi";
       }
     });
   });
-  console.log(cityScores[Plano, TX, USA]);
+
   </script>
   </body>
 </html>
