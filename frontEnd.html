@@ -1,0 +1,99 @@
+<!-- code for website -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <body>
+      <title>Safer Tomorrow</title>
+    </header>
+    <section id="home">
+      <h1>Safer Tomorrow</h1>
+      <p>Welcome to Safer Tomorrow, a website that shows you a calculated safety score for your city. The goal of the website
+        is to show the safety trends and scores of the cities that are input. Data from the website comes directly from the FBI's
+        official data on criminal activity. As of right now, the database is limited to Texas cities only.
+      </p>
+    </section>
+  </body>
+
+  <head>
+    <title>Custom Search Bar</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQMHkBsnobysQDtn5PuEhmDKwgq404few&libraries=places"></script>
+    </style>
+    <script>
+      var map, marker;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+	  center: {lat: 31.9686, lng: -99.9018},
+zoom: 5
+        });
+        var input = document.getElementById('search');
+        var autocomplete = new google.maps.places.Autocomplete(input);
+        autocomplete.bindTo('bounds', map);
+        marker = new google.maps.Marker({
+          map: map,
+          anchorPoint: new google.maps.Point(0, -29)
+        });
+        document.getElementById('search-btn').addEventListener('click', function() {
+          marker.setVisible(false);
+          var place = autocomplete.getPlace();
+          if (!place.geometry) {
+            window.alert("No details available for input: '" + place.name + "'");
+            return;
+          }
+          if (place.geometry.viewport) {
+            map.fitBounds(place.geometry.viewport);
+          } else {
+            map.setCenter(place.geometry.location);
+            map.setZoom(15); 
+          }
+          marker.setPosition(place.geometry.location);
+          marker.setVisible(true);
+        });
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+    <div id="search-bar">
+      <input id="search" type="text" placeholder="Search City" style= "width: 200px; height: 30px;">
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="map" style="height:500px; width: 500px; float:left; margin-right: 100px; margin-left: 100px; margin-bottom: 200px; margin-top: 10px;"></div>
+    <!-- <label for="score">Score:</label> -->
+    <input type="score" id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 100px;">
+    <script>
+
+        
+const searchBar = document.getElementById("search-bar");
+const scoreBox = document.getElementById("score-box");
+
+fetch("cities.txt")
+  .then(response => response.text())
+  .then(data => {
+    // Split the text file by newline
+    const lines = data.split("\n");
+    // Create an object to store the city-number pairs
+    const cityScores = {};
+    // Loop through each line and add the city-number pairs to the object
+    lines.forEach(line => {
+      const [city, state, country, score] = line.split(",");
+      cityScores[city + "," + state + "," + country+ ": "] = score;
+    });
+    // Listen for the user input in the search bar
+    searchBar.addEventListener("input", e => {
+      const city = e.target.value;
+      // Check if the city exists in the cityScores object
+      if (cityScores[city]) {
+        // If it does, update the score text box with the corresponding number
+        scoreBox.value = cityScores[city];
+      } else {
+        // If it doesn't, clear the score text box
+        scoreBox.value = "";
+      }
+    });
+  });
+  console.log(cityScores[Plano, TX, USA]);
+  </script>
+  </body>
+</html>
+
+
