@@ -108,15 +108,17 @@ zoom: 5
     text-align: center; word-break: break-word;"> -->
     <textarea id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px; display: inline-block; word-break: break-word; white-space: pre-wrap"></textarea>
     <!-- inserts a chart <canvas id="myChart"></canvas> -->
+    
 
     <script>
+
 
         
 const searchBar = document.getElementById("search");
 const searchBtn = document.getElementById("search-btn");
 const scoreBox = document.getElementById("score-box");
 
-fetch("citiies2.txt")
+fetch("cities.txt")
   .then(response => response.text())
   .then(data => {
     // Split the text file by newline
