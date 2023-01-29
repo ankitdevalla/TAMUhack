@@ -4,12 +4,15 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
   <body>
-      <title>Safer Tomorrow</title>
+    <div id="banner">
+      <h1 style="font-style: monospace">Safer Tomorrow</h1>
+    </div>
+    <title>Safer Tomorrow</title>
     </header>
+    
     <section id="home">
-      <h1>Safer Tomorrow</h1>
-      <p>Welcome to Safer Tomorrow, a website that shows you a calculated safety score for your city. The goal of the website
-        is to show the safety trends and scores of the cities that are input. Data from the website comes directly from the FBI's
+      <p style="text-align: center;">Welcome to <strong>Safer Tomorrow</strong>, a website that shows you the safeness of your city. The goal of the website
+        is to show the safety trends of the cities that are input. Data from the website comes directly from the FBI's
         official data on criminal activity. As of right now, the database is limited to Texas cities only.
       </p>
     </section>
@@ -59,7 +62,8 @@ zoom: 5
     </div>
     <div id="map" style="height:500px; width: 500px; float:left; margin-right: 100px; margin-left: 100px; margin-bottom: 200px; margin-top: 10px;"></div>
     <!-- <label for="score">Score:</label> -->
-    <input type="score" id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 100px;">
+    <input type="score" id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
+    <!-- inserts a chart <canvas id="myChart"></canvas> -->
     <script>
 
         
@@ -67,7 +71,7 @@ const searchBar = document.getElementById("search");
 const searchBtn = document.getElementById("search-btn");
 const scoreBox = document.getElementById("score-box");
 
-fetch("cities.txt")
+fetch("citiies2.txt")
   .then(response => response.text())
   .then(data => {
     // Split the text file by newline
@@ -75,29 +79,44 @@ fetch("cities.txt")
     // Create an object to store the city-number pairs
     const cityScores = {};
     // Loop through each line and add the city-number pairs to the object
+    // for loop iterate by 3
     lines.forEach(line => {
-      const [city, state, country, score] = line.split(",");
-      cityScores[city + ", " + state + ", " + country + ","] = score;
+      const [city, state, country, score] = line.split(", ");
+      cityScores[city + ", " + state + ", " + country] = score;
     });
     // Listen for the click event on the search button
     searchBtn.addEventListener("click", e => {
-      const city = searchBar.value;
-      scoreBox.value = city;
-      scoreBox.value += " " + cityScores[city];
+      // scoreBox.value = searchBar.value;
+      // cityScores[searchBar.value] = 2;
+      // scoreBox.value += " " + " hi " + cityScores[searchBar.value];
 
       // Check if the city exists in the cityScores object
-      if (cityScores[city]) {
+      if (cityScores[searchBar.value]) {
         // If it does, update the score text box with the corresponding number
-        scoreBox.value = cityScores[city];
+        // scoreBox.value += "inside if ";
+        scoreBox.value = searchBar.value + " SAFETY SCORE: \n" + cityScores[searchBar.value];
       } else {
         // If it doesn't, clear the score text box
-        scoreBox.value += "hi";
+        scoreBox.value = "CITY NOT IN DATABASE";
       }
     });
   });
 
   </script>
+  <body>
+    <h4 id="violent">Number of violent crimes</h4>
+    <input type="violent" id="violent-box" readonly placeholder="The number of violent crimes committed in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
+    <h4 id="property">Number of property crimes</h4>
+    <input type="property" id="property-box" readonly placeholder="The number of property crimes committed in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
+    <h4 id="overall">Last year's overall ranking</h4>
+    <input type="overall" id="overall-box" readonly placeholder="The overall ranking in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
   </body>
-</html>
+  <script>
+    const banner = document.querySelector("#banner");
+const title = document.createElement("h1");
+title.innerText = "Safer Tomorrow";
+banner.appendChild(title);
+</script>
+  </html>
 
 
