@@ -9,11 +9,54 @@
     </div>
     <title>Safer Tomorrow</title>
     </header>
+    <a href="https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/texas.xls">DATA SOURCE: FBI</a>
+    <a href="page2.html">LEARN MORE</a>
     <section id="home">
-      <p style="text-align: center;">Welcome to <strong>Safer Tomorrow</strong>, a website that shows you the safeness of your city. The goal of the website
+      <!-- <p style="text-align: center;">Welcome to <strong>Safer Tomorrow</strong>, a website that shows you the safeness of your city. The goal of the website
         is to show the safety trends of the cities that are input. Data from the website comes directly from the FBI's
-        official data on criminal activity. As of right now, the database is limited to Texas cities only.
-      </p>
+        official data on criminal activity. As of right now, the database is limited to Texas cities only. Our algorithm, developed
+        based off the justice system and criminal punishment in the US, takes in data and spits out a score. The higher the score, the safer the city!
+      </p> -->
+    
+      <!-- <div id="text" style="text-align: center;">
+        <strong>PROTECT YOUR FUTURE</strong>
+      </div>  -->
+      
+      <p id="text">PLAN A SECURE FUTURE AT THE PUSH OF A BUTTON</p>
+
+      
+      <script>
+        // let text = document.querySelector('#text');
+        // let words = text.innerHTML.split(" ");
+        // text.innerHTML = "";
+        // let delay = 0;
+        // words.forEach((word) => {
+        //   let letterIndex = 0;
+        //   let wordInterval = setInterval(() => {
+        //     text.innerHTML += word[letterIndex];
+        //     letterIndex++;
+        //     if (letterIndex === word.length) {
+        //       text.innerHTML += " ";
+        //       clearInterval(wordInterval);
+        //     }
+        //   }, 50 + delay);
+        //   delay += 200;
+        // });
+//         var i = 0;
+//         var txt = 'PROTECT YOUR FUTURE'; /* The text */
+//         var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("text").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+
+      </script>
+      
+      </script>
     </section>
   </body>
 
@@ -61,8 +104,11 @@ zoom: 5
     </div>
     <div id="map" style="height:500px; width: 500px; float:left; margin-right: 100px; margin-left: 100px; margin-bottom: 200px; margin-top: 10px;"></div>
     <!-- <label for="score">Score:</label> -->
-    <input type="score" id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
+    <!-- <input type="textarea" id="score-box"  placeholder="The Safety Score of the city is: " style="height:400px; width: 400px; margin-top: 100px; margin-left: 20px; 
+    text-align: center; word-break: break-word;"> -->
+    <textarea id="score-box" readonly placeholder="The Safety Score of the city is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px; display: inline-block; word-break: break-word; white-space: pre-wrap"></textarea>
     <!-- inserts a chart <canvas id="myChart"></canvas> -->
+
     <script>
 
         
@@ -126,7 +172,35 @@ fetch("citiies2.txt")
         avg = parseFloat(cityScores1[searchBar.value]) + parseFloat(cityScores2[searchBar.value]) + 
         parseFloat(cityScores3[searchBar.value]);
         avg /= 3;
-        scoreBox.value = searchBar.value + " AVERAGE SAFETY SCORE: \n" +  avg.toFixed(2);
+        let newLine = "\n";
+        scoreBox.value = searchBar.value;
+        scoreBox.value += " \nAVERAGE SAFETY SCORE: \r\n";
+        scoreBox.value += avg.toFixed(2);
+        scoreBox.value += "\n\nSafety Score in 2020: " + parseFloat(cityScores2[searchBar.value]);
+        scoreBox.value += "\nSafety Score in 2021: " + parseFloat(cityScores3[searchBar.value]);
+        scoreBox.value += "\nSafety Score in 2022: " + parseFloat(cityScores1[searchBar.value]);
+
+        if (cityScores2[searchBar.value] <= cityScores3[searchBar.value] && cityScores3[searchBar.value] <= cityScores1[searchBar.value]) {
+          scoreBox.value += "\n\nBECOMING SAFER!";
+        }
+        else if (cityScores2[searchBar.value] >= cityScores3[searchBar.value] && cityScores3[searchBar.value] >= cityScores1[searchBar.value]) {
+          scoreBox.value += "\n\nBECOMING MORE DANGEROUS!";
+        }
+        else {
+          scoreBox.value += "\n\nTREND INCONSISTENT";
+        }
+
+        if (avg >= 75) {
+          scoreBox.style.backgroundColor = "#48e040"; 
+          scoreBox.value += "\n\nOVERALL VERY SAFE!";
+
+        } else if (avg >= 50 && avg < 75) {
+          scoreBox.style.backgroundColor = "#f1f12f";
+          scoreBox.value += "\n\nOVERALL SAFE!";
+        } else {
+          scoreBox.style.backgroundColor = "#e04540"; 
+          scoreBox.value += "\n\nOVERALL DANGEROUS!";
+        }
         // scoreBox.value += searchBar.value;
       } else {
         // If it doesn't, clear the score text box
@@ -136,20 +210,23 @@ fetch("citiies2.txt")
   });
 
   </script>
-  <body>
-    <h4 id="violent">Number of violent crimes</h4>
-    <input type="violent" id="violent-box" readonly placeholder="The number of violent crimes committed in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
-    <h4 id="property">Number of property crimes</h4>
-    <input type="property" id="property-box" readonly placeholder="The number of property crimes committed in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
-    <h4 id="overall">Last year's overall ranking</h4>
-    <input type="overall" id="overall-box" readonly placeholder="The overall ranking in 2019 is: " style="height:300px; width: 300px; float:left; margin-top: 100px; margin-left: 20px;">
-  </body>
-  <script>
+
+  <!-- <body>
+    <section>
+    <div id="header4">
+      <h4 style="text-align: center;"> Welcome to <strong>Safer Tomorrow</strong>, a website that shows you the safeness of your city. The goal of the website
+        is to show the safety trends of the cities that are input. Data from the website comes directly from the FBI's
+        official data on criminal activity. As of right now, the database is limited to Texas cities only. Our algorithm, developed
+        based off the justice system and criminal punishment in the US, takes in data and spits out a score. The higher the score, the safer the city!</h4>
+    </div>
+  </section>
+  </body> -->
+  <!-- <script>
     const banner = document.querySelector("#banner");
 const title = document.createElement("h1");
 title.innerText = "Safer Tomorrow";
 banner.appendChild(title);
-</script>
+</script> -->
   </html>
 
 
