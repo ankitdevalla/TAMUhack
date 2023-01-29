@@ -5,11 +5,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   <body>
     <div id="banner">
-      <h1 style="font-style: monospace">Safer Tomorrow</h1>
+      <h1 style="font-weight: 150">Safer Tomorrow</h1>
     </div>
     <title>Safer Tomorrow</title>
     </header>
-    
     <section id="home">
       <p style="text-align: center;">Welcome to <strong>Safer Tomorrow</strong>, a website that shows you the safeness of your city. The goal of the website
         is to show the safety trends of the cities that are input. Data from the website comes directly from the FBI's
@@ -77,24 +76,58 @@ fetch("citiies2.txt")
     // Split the text file by newline
     const lines = data.split("\n");
     // Create an object to store the city-number pairs
-    const cityScores = {};
+    const cityScores1 = {}; // 2019
+    const cityScores2 = {}; // 2018
+    const cityScores3 = {}; // 2017
+
+    var counter = 1;
+
+    lines.forEach(line => {
+    const [city, state, country, score] = line.split(", ");
+    cityScores1[city + ", " + state + ", " + country] = score;
+    if (counter % 3 == 0) {
+        cityScores1[city + ", " + state + ", " + country] = score;
+    }
+    else if (counter % 3 == 1) {
+        cityScores2[city + ", " + state + ", " + country] = score;
+    }
+    else {
+        cityScores3[city + ", " + state + ", " + country] = score;
+    }
+    counter++;
+    }); 
+
+    
     // Loop through each line and add the city-number pairs to the object
     // for loop iterate by 3
-    lines.forEach(line => {
-      const [city, state, country, score] = line.split(", ");
-      cityScores[city + ", " + state + ", " + country] = score;
-    });
+
+
+    //   lines.forEach(line => {
+    //   const [city, state, country, score] = line.split(", ");
+    //   cityScores1[city + ", " + state + ", " + country] = score;
+    // }); 
+
+    
     // Listen for the click event on the search button
     searchBtn.addEventListener("click", e => {
-      // scoreBox.value = searchBar.value;
+      // scoreBox.value = "hi";
       // cityScores[searchBar.value] = 2;
       // scoreBox.value += " " + " hi " + cityScores[searchBar.value];
+      var avg = 0.0;
+
 
       // Check if the city exists in the cityScores object
-      if (cityScores[searchBar.value]) {
+      if (cityScores1[searchBar.value]) {
         // If it does, update the score text box with the corresponding number
         // scoreBox.value += "inside if ";
-        scoreBox.value = searchBar.value + " SAFETY SCORE: \n" + cityScores[searchBar.value];
+        // scoreBox.value += cityScores1[searchBar.value] + " ";
+        // scoreBox.value += cityScores2[searchBar.value] + " ";
+        // scoreBox.value += cityScores3[searchBar.value];
+        avg = parseFloat(cityScores1[searchBar.value]) + parseFloat(cityScores2[searchBar.value]) + 
+        parseFloat(cityScores3[searchBar.value]);
+        avg /= 3;
+        scoreBox.value = searchBar.value + " AVERAGE SAFETY SCORE: \n" +  avg.toFixed(2);
+        // scoreBox.value += searchBar.value;
       } else {
         // If it doesn't, clear the score text box
         scoreBox.value = "CITY NOT IN DATABASE";
