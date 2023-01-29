@@ -1,6 +1,11 @@
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+}
+
+h4{
+  font-size: 20px;
+  color: white;
 }
 
 p {
@@ -14,8 +19,7 @@ body {
 header {
     background-color: #f2f2f2;
     padding: 30px;
-}
-
+} 
 
 nav ul {
     list-style-type: none;
@@ -64,3 +68,72 @@ section {
     border-radius: 10px;
   }
 
+  #violent-box{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1100px;
+    left: 50px
+  }
+
+  
+  #property-box{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1100px;
+    left: 600px
+  }
+
+  
+  #overall-box{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1100px;
+    right: 50px
+  }
+
+  /* #myChart{
+    width: 100px;
+    height: 40px;
+  } */
+
+  /* Example of positioning an element */
+#violent {
+  position: absolute;
+  top: 1100px;
+  left: 50px;
+}
+
+#property {
+  position: absolute;
+  top: 1100px;
+  left: 600px;
+}
+
+#overall {
+  position: absolute;
+  top: 1100px;
+  right: 50px;
+}
+
+#banner {
+  background-color: white;
+  height: 80px;
+  width: 100%
+  display: flex;
+  background: linear-gradient(to right, lightblue, lightgreen);
+}
+
+  
+  
