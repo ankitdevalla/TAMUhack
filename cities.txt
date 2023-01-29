@@ -1,0 +1,3 @@
+Plano, TX, USA: 2
+Allen, TX, USA: 4
+Frisco, TX, USA: 6
